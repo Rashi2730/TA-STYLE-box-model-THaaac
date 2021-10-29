@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1 {
+    margin-left: 400px;
+    padding: 20px;
+    font-size: 38px;
+}
+p {
+    margin-left: 150px;
+}
+h3 {
+    text-align: center;
+    font-size: 28px;
+}
+#dot {
+     margin-left: 550px;  
+     margin-bottom: 20px;
+     color: lightslategray; 
+}
+.smallbox {
+    display: inline-block;
+    font-size: 0%;
+    background-color: rgb(186, 231, 195);
+    width: 50px;
+    height: 70px;
+    margin-top: 25px;
+    margin-right: 330px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+    padding: 30px;
+    border: 20px solid mediumturquoise;
+    outline: 8px solid black;
+}
+.bigbox {
+    width: 200px;
+    height: 220px;
+    background-color: pink;
+    margin-left: 530px;
+    margin-top: 20px;
+}   
+.border {
+    border: 0.5px dotted rgb(182, 176, 176);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+    
+}
+.border2 {
+    border: 0.5px dotted rgb(182, 176, 176);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.para {
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.bbb {
+    width: 600px;
+    border: 1px solid rgb(141, 137, 137);
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.box1 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    margin-left: 10px;
+}
+.box2 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    margin-left: 10px;
+}
+.box3 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    margin-left: 10px;
+}
+.content {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgb(186, 231, 195);
+    display: inline-block;
+}
+.padding {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px;
+}
+.border {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin: 0px;
+}
+.margin {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+}
+footer {
+    margin-left: 380px;
+    margin-top: 30px;
+}
+.box11 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 10px;
+}
+.box22 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 10px;
+}
+.box33 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 10px;
+}
+.b1 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.b2 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.b3 {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(112, 106, 106);
+    border: 2px solid black;
+    margin-left: 10px;
+}
